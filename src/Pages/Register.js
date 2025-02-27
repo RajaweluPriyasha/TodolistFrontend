@@ -41,6 +41,14 @@ const Register = () => {
       }}
     >
       <Container>
+      <div className="d-flex align-items-center justify-content-center mb-4">
+                        <img
+                            src="./images/todo.gif"
+                            alt="todoIcon"
+                            style={{ width: '50px', height: '50px', marginRight: '10px' }}
+                        />
+                        <h2 style={{ color: '#198754', margin: 0 }}>TO-DO PICKER</h2>
+                    </div>
         <Card className="p-4 shadow" style={{ maxWidth: '400px', margin: 'auto' }}>
           <Card.Body>
             {/* Register Header with Image */}

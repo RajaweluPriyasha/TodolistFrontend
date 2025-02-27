@@ -45,6 +45,7 @@ const Login = () => {
   };
 
   return (
+    
     <div
       style={{
         backgroundImage: 'url(./images/bg.gif)', 
@@ -56,7 +57,17 @@ const Login = () => {
         justifyContent: 'center',
       }}
     >
+      
+
       <Container>
+      <div className="d-flex align-items-center justify-content-center mb-4">
+                        <img
+                            src="./images/todo.gif"
+                            alt="todoIcon"
+                            style={{ width: '50px', height: '50px', marginRight: '10px' }}
+                        />
+                        <h2 style={{ color: '#198754', margin: 0 }}>TO-DO PICKER</h2>
+                    </div>
         <Card className="p-4 shadow" style={{ maxWidth: '400px', margin: 'auto', backgroundColor: 'rgba(255, 255, 255, 0.9)' }}>
           <Card.Body>
             {/* Login Header with Image */}
